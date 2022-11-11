@@ -102,7 +102,6 @@ else
             { "avoidEscape": true, "allowTemplateLiterals": false }
         ]
     }
-     }
 }' >> .eslintrc.js
   > .eslintignore
 
