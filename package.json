@@ -1,0 +1,29 @@
+{
+  "name": "eslint-prettier",
+  "version": "1.0.0",
+  "description": "Config setup for eslint with prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glennispotatis/eslint-prettier.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier"
+  ],
+  "author": "Glenn Eirik Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glennispotatis/eslint-prettier/issues"
+  },
+  "homepage": "https://github.com/glennispotatis/eslint-prettier#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.10",
+    "prettier": "2.7.1"
+  }
+}
