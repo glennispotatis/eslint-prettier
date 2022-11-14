@@ -106,9 +106,9 @@ else
 	> .eslintignore
 
 	echo '
-    build/
-    coverage/
-    node_modules/
+build/
+coverage/
+node_modules/
     ' >> .eslintignore
 fi
 
@@ -139,9 +139,9 @@ else
 }' >> .prettierrc.json
 	> .prettierignore
 	echo "# Ignore artifacts:"'
-    build
-    coverage
-    node_modules
+build
+coverage
+node_modules
     ' >> .prettierignore
 fi
 
