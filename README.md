@@ -4,7 +4,8 @@ This is a template for eslint and prettier setup. After installation, feel free 
 
 ## Usage
 
-Choose either the "Automatic setup" or the "Manual setup". Keep in mind that currently the automatic setup is not supported on windows (Unless you use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install/?target=_blank)).
+Choose either the "Automatic setup" or the "Manual setup". Keep in mind that currently the automatic setup is not supported on windows (Unless you use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install/)).
+<a href="https://learn.microsoft.com/en-us/windows/wsl/install/" target="_blank">WSL blank</a>
 
 ### Automatic setup
 
