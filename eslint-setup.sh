@@ -15,6 +15,7 @@ then
     echo
     echo -e "${RED}CAUTION:${NC} there is loading priority when more than one config file is present: https://eslint.org/docs/user-guide/configuring#configuration-file-formats"
     echo
+    echo -e "${RED}(Note, this will only overwrite if you have a .eslintrc.${YELLOW}js${RED} file)${NC}"
     read -p "Create .eslintrc.js? (y/n) "
     if [[ $REPLY =~ ^[Nn]$ ]]
     then
@@ -33,6 +34,7 @@ then
     echo 
     echo -e "${RED}CAUTION:${NC} The configuration file will be resolved starting from the location of the file being formatted, and searching up the file tree until a config file is (or isn't) found. https://prettier.io/docs/en/configuration.html"
     echo
+    echo -e "${RED}(Note, this will only overwrite if you have a .prettierrc.${YELLOW}json${RED} file)${NC}"
     read -p "Create .prettierrc.json? (y/n) "
     if [[ $REPLY =~ ^[Nn]$ ]]
     then
