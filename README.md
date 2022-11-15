@@ -3,7 +3,10 @@
 ## Usage
 
 -   Automatic setup:
-    `curl -s -L https://raw.githubusercontent.com/glennispotatis/eslint-prettier/main/scripts/eslint-prettier-setup.sh | bash`
+
+```bash
+bash <(curl https://raw.githubusercontent.com/glennispotatis/eslint-prettier/main/eslint-setup.sh)
+```
 
 -   Install eslint-config-prettier (`npm install --save-dev eslint-config-prettier`)
 -   Create a eslintrc.\* file by running the command `npm init @eslint/config` and run the installation guide.
