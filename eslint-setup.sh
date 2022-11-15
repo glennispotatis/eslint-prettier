@@ -23,7 +23,6 @@ then
         skip_eslint="true"
     fi
 fi
-finished=false
 
 # Check if prettier config already exist and then ask the user if it should be overridden
 if [[ -f ".prettierrc.js" || -f ".prettier.config.js" || -f ".prettierrc.yaml" || -f ".prettierrc.yml" || -f ".prettierrc.json" || -f ".prettierrc.toml" || -f ".prettierrc" ]]
@@ -153,4 +152,4 @@ then
 fi
 
 echo
-echo -e "${GREEN}Installation Complete! Use 'npx eslint' and 'npx prettier -c' to check files.${NC}"
+echo -e "${GREEN}Installation Complete! Use 'npx eslint' and 'npx prettier -c [File or directory to check]' to check files.${NC}"
