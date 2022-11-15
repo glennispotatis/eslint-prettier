@@ -23,6 +23,7 @@ then
         skip_eslint="true"
     fi
 fi
+finished=false
 
 # Check if prettier config already exist and then ask the user if it should be overridden
 if [[ -f ".prettierrc.js" || -f ".prettier.config.js" || -f ".prettierrc.yaml" || -f ".prettierrc.yml" || -f ".prettierrc.json" || -f ".prettierrc.toml" || -f ".prettierrc" ]]
