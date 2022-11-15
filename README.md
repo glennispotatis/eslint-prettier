@@ -1,8 +1,14 @@
 # eslint-prettier
 
+This is a template for eslint and prettier setup. After installation, feel free to add your own rules. Currently, React and Typescript is not installed during this and has to be added manually.
+
 ## Usage
 
-### Automatic setup:
+Choose either the "Automatic setup" or the "Manual setup". Keep in mind that currently the automatic setup is not supported on windows (Unless you use wsl).
+
+### Automatic setup
+
+Currently only works for UNIX (Linux/Mac), working on a windows version. For now use manual installation!
 
 ```bash
 bash <(curl https://raw.githubusercontent.com/glennispotatis/eslint-prettier/main/eslint-setup.sh)
@@ -10,11 +16,23 @@ bash <(curl https://raw.githubusercontent.com/glennispotatis/eslint-prettier/mai
 
 ### Manual Setup
 
-- Install eslint-config-prettier (`npm install --save-dev eslint-config-prettier`)
-- Create a eslintrc.\* file by running the command `npm init @eslint/config` and run the installation guide.
-- Add "prettier" at the end in the "extends" array in the `.eslintrc.*`file.
-- Create a `.eslintignore` and add necessary ignores (build, node_modules etc...)
-- Install prettier `npm install --save-dev --save-exact prettier`.
-- Then create an empty config file `echo {}> .prettierrc.json`
-- Create a `.prettierignore` and add the same necessary ignores (Should be based on the eslintignore)
-- Run prettier bu doing (`npx prettier --write`) and eslint (`npx eslint`).
+- Install "eslint-config-prettier"
+
+```bash
+npm install --save-dev eslint-config-prettier
+```
+
+- Install "eslint-config-airbnb"
+
+```bash
+npm install --save-dev eslint-config-airbnb
+```
+
+- Install "prettier"
+
+```bash
+npm install --save-dev --save-exact prettier
+```
+
+- Copy the 4 files in the folder "default-files" and paste them in the root directory of your project.
+- Run eslint `npx eslint [options] [file]` and prettier `npx prettier [options] [file]`.
